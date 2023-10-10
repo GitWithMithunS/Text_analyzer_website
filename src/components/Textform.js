@@ -50,7 +50,7 @@ export default function Textform(props) {
     }
     
     
-    const [text, setText] = useState("Enter text here");
+    const [text, setText] = useState("");
     const a= text.split(/[.!?]/g).length
     const b= text.split("\n").length
     
@@ -83,7 +83,7 @@ export default function Textform(props) {
 </ul>
 </div>
 <div><h2>Preview</h2>
-<p>{text.lenght > 0 ? {text}:"Write something in the text box to preview it here."}</p>
+<p>{ text.length > 0 ? text : "Write something in the text box to preview it here."}</p>
 </div>
 </>
     
