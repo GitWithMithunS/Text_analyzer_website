@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+}
+.flists{
+    display: flex;
+    width: 100%;
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+
+}
+
+.flist{
+    list-style: none;
+}
+.flistitem{
+    margin-bottom: 7px;
+  
+    cursor: pointer ;
+}

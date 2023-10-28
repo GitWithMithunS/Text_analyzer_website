@@ -1,0 +1,21 @@
+.navbar{
+
+background-color: #e3f2fd
+}
+.conatiner{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.subcont{
+    width: 100%;
+ 
+    max-width: 1024px;
+
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+}
